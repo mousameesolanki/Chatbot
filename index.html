@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+     integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <script>
+        const fab-wrapper=document.querySelector('.fab-wrapper');
+        document.querySelector('.fab-checkbox').onclick =function(){
+            this.classList.fab-checkbox('active');
+            fab-wrapper.classList.fab-checkbox('active')
+        } 
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+        $( ".fab-wrapper" ).draggable();
+      
+    } );
+    </script>
+</head>
+<body>
+    <div class="fab-wrapper">
+        <input id="fabCheckbox" type="checkbox" class="fab-checkbox" />
+        <label class="fab" for="fabCheckbox">
+          <span class="fab-dots fab-dots-1"></span>
+          <span class="fab-dots fab-dots-2"></span>
+          <span class="fab-dots fab-dots-3"></span>
+        </label>
+        <div class="fab-wheel">
+          <a class="fab-action fab-action-1">
+            <i class="fa fa-comment"></i>
+          </a>
+          <a class="fab-action fab-action-2" href="#" target="_self">
+            <i class="fa fa-book"></i>
+          </a>
+          <a class="fab-action fab-action-3" href="about.html">
+            <i class="fa fa-info"></i>
+          </a>
+          <a class="fab-action fab-action-4" href="home.html">
+            <i class="fa fa-home"></i>
+          </a>
+        </div>
+      </div>
+      <!--<script>
+             const navigation=document.querySelector('.fab-checkbox');
+             document.querySelector('.fab-checkbox').onclick =function(){
+                 this.classList.fab-checkbox('active');
+                 fab-wrapper.classList.fab-checkbox('active')
+             }
+         </script>
+         <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+         <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+         <script>
+         $( function() {
+           $( ".fab-wrapper" ).draggable();
+         } );
+         </script>-->
+</body>
+</html>
