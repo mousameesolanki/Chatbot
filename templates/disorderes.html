@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en" class="hydrated">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="disorderes.css" />
+    <title>Disorders</title>
+    <h1>Disorders</h1>
+    <p>
+      Disorders are generally characterized by a combination of abnormal
+      thoughts, perceptions, emotions, behaviour and relationships with others.
+      Mental disorders include: depression, bipolar disorder, anxiety, eating disorder,
+      addiction and many many more .
+    </p>
+  </head>
+  <body>
+    <div class="dropdown">
+     <button type="button" class="button">
+      <span class="button__text">Anxiety</span>
+      <span class="button__icon">
+        <ion-icon name="pulse-outline"></ion-icon>
+      </span>
+     </button>
+     <br>
+     <div id="dropdown-content">
+      I am about Anxiety
+     </div>
+    </div>
+    <br />
+    <div class="dropdown">
+    <button type="button" class="button">
+      <span class="button__text">Depression</span>
+      <span class="button__icon">
+        <ion-icon name="pulse-outline"></ion-icon>
+      </span>
+    </button>
+    <br>
+     <div id="dropdown-content">
+      I am about Anxiety
+     </div>
+    </div>
+    <br />
+    <div class="dropdown">
+    <button type="button" class="button">
+      <span class="button__text">Bipolar Disorder</span>
+      <span class="button__icon">
+        <ion-icon name="pulse-outline"></ion-icon>
+      </span>
+      </button>
+      <br>
+     <div id="dropdown-content">
+      I am about Anxiety
+     </div>
+    </div>
+    <br />
+    <div class="dropdown">
+    <button type="button" class="button" onclick="myFunction()">
+      <span class="button__text">Eating Disorder</span>
+      <span class="button__icon">
+        <ion-icon name="pulse-outline"></ion-icon>
+      </span>
+    </button>
+    <br>
+    <div id="dropdown-content">
+      I am about Anxiety
+     </div>
+    </div>
+    <br />
+    <div class="dropdown">
+    <button type="button" class="button">
+      <span class="button__text">Addiction</span>
+      <span class="button__icon">
+        <ion-icon name="pulse-outline"></ion-icon>
+      </span>
+    </button>
+     <br>
+     <div id="dropdown-content">
+      I am about Anxiety
+     </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script>
+      function myFunction() {
+        var x = document.getElementsById("dropdown-content");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+      </script>
+  </body>
+</html>
