@@ -146,7 +146,7 @@
     color: White;
     box-shadow: 0 0.1rem 1rem rgba(24, 66, 154, 0.82);
     transition: all 1s ease;
-  
+     text-decoration: none;
     opacity: 0;
   }
   
